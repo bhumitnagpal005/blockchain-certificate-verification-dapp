@@ -19,6 +19,18 @@ A full-stack blockchain-based application to issue, verify, and track academic c
 - IPFS (Pinata)
 - MetaMask
 
+## 📸 Screenshots
+
+### Issue Certificate
+![Issue Certificate](screenshots/issue-certificate.png)
+
+### Verify Certificate
+![Verify Certificate](screenshots/verify-certificate.png)
+
+### Certificate History
+![Certificate History](screenshots/certificate-history.png)
+
+
 ## ⚙️ How to Run Locally
 
 ```bash
