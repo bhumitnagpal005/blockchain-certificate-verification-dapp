@@ -31,6 +31,15 @@ A full-stack blockchain-based application to issue, verify, and track academic c
 ![Certificate History](screenshots/certificate-history.png)
 
 
+## 🚀 Future Roadmap & Enhancements
+While this MVP successfully demonstrates the core flow of decentralized certificate issuance and verification, the following features are planned for production-grade scaling:
+
+* **Soulbound Tokens (SBTs):** Transitioning from simple mappings to non-transferable ERC-721 tokens to ensure certificates stay locked to the recipient's identity.
+* **Institutional RBAC:** Implementing OpenZeppelin's `AccessControl` to restrict minting rights to verified educational institutions.
+* **Batch Issuance:** Optimizing gas costs by allowing institutions to issue multiple certificates in a single transaction.
+* **On-Chain Hash Verification:** Adding a secondary layer of security by comparing local PDF hashes against stored blockchain CIDs to prevent tampering.
+
+
 ## ⚙️ How to Run Locally
 
 ```bash
